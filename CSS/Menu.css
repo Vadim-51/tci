@@ -1,0 +1,99 @@
+nav ul{
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul li{
+  list-style-type: none;
+  float: left;
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Chewy', cursive;
+  font-size: 19px;
+  transition: all .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #FFF;
+  transition: all .3s;
+}
+nav ul li:hover{
+  background-color: rgb(201, 191, 188);
+}
+nav ul li:hover a{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+#SignIn{
+  float: right;
+  color:#CCCCCC;
+  margin-top: 60px;
+  margin-right: 15px;
+  font-size: 18px;
+}
+#SignIn a{
+  text-decoration: none;
+  color:#CCCCCC;
+  transition: all .5s;
+}
+#menuIcon{
+    position: absolute;
+    right: 10px;
+	top: 7px;
+	color: #FFF;
+    display: none;
+}
+div.forBorder{
+     width: 150px;
+}
+@media screen and (max-width:950px){
+nav ul li{
+  float: none;
+  display: block;
+  height: 40px;
+}
+ul#navBar li:not(:first-child){width: 100%;}
+
+ul#navBar{
+  background-color: #3b3a36;
+}
+
+
+#menuIcon{
+  display: block;
+}
+#menuIcon:hover{
+  cursor: pointer;
+}
+div#NavBar{
+  overflow: hidden;
+  z-index: 1000;
+}
+
+
+}
+@media screen and (max-width:480px){
+nav ul li{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+ 
+}
+div.forBorder{
+     width: 120px;
+}
+
+}
+
+
+
+
+
+
+
